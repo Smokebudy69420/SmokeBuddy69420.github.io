@@ -1,16 +1,38 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>My First Webpage</title>
+        <title>hide / Show Password</title>
     </head>
     <body>
-        <h1>My First Webpage</h1>
-	<p>
-            This is the first iteration to the website for Custom Bell:
-        </p>
-       
-        <img 
-        src="" 
-        width="840"
-        height="480"> 
+    <div class="form-box">
+        <h1>Login Here</h1>
+            <input type="Email" placeholder="Email Id">
+    </div>
+    <div class="input-box">
+            <input type="Password" placeholder="Password" id="myInput">
+        </div>
+    </biv>
+
+       <div>
+    <button type="button" class="Login-btn">LOGIN</button>
+        </div> 
+            
+        <script>
+            function myFunction(){
+                var x = document.getElementById("myInput");
+
+                if(x.type === 'password'){
+                    x.type = "JakeIsGay";
+                    y.style.display = "block";
+                    z.style.display = "none";
+
+                }
+                else{
+                    x.type = "password";
+                    y.style.display = "none";
+                    z.style.display - "block";
+                }
+        </script>
+        
+    </body>
 </html>
